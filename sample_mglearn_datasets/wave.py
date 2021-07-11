@@ -9,7 +9,6 @@ y-axis: regression target (output)
 """
 import mglearn
 from matplotlib import pyplot as plt
-import numpy as np
 
 X,y = mglearn.datasets.make_wave(n_samples=40)
 plt.plot(X,y,'o')
