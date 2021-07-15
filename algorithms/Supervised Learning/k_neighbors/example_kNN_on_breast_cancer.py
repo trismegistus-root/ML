@@ -7,7 +7,7 @@ The plots of Accuracy vs. n_neighbors shows that for any n_neighbors such that
 accuracy and test accuracy produce the greatest overall accuracy. 
 
 NOTES:
-As n_neighbors approaches len(dataset), kNN produces nearly the same result
+As n_neighbors approaches num_data_points, kNN produces nearly the same result
 every time it is run. (underfit)
 
 As n_neighbors approaches 1, kNN becomes too complex of a model. (overfit)
